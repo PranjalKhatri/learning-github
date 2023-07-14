@@ -4,6 +4,9 @@ git status:
 git log :
 git diff :
 git diff --staged:
+git rm:
+git mv:
+
 clone : clone repository to your folder
 add : tracks changes in the repository
 commit : saves to git
