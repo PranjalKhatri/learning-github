@@ -2,7 +2,8 @@ git config :
 git init :
 git status:
 git log :
-
+git diff :
+git diff --staged:
 clone : clone repository to your folder
 add : tracks changes in the repository
 commit : saves to git
