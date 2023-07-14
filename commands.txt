@@ -1,0 +1,10 @@
+git config :
+git init :
+git status:
+git log :
+
+clone : clone repository to your folder
+add : tracks changes in the repository
+commit : saves to git
+push : upload git commits to github etc.
+pull : download changes from remote repo to your folder,opposite of push
