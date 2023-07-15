@@ -18,3 +18,4 @@ git branch -v : displays last commit message of different branches
 git branch --merged : tells the branches which are already merged
 git branch --no-merged : tells the branches which are not already merged
 git branch -d {branch_name} : deletes the branch
+git branch : gives the name of current branch
