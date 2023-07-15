@@ -21,3 +21,4 @@ git branch -d {branch_name} : deletes the branch
 git branch : gives the name of current branch
 git remote add origin {link} :
 git remote -v : tells where you are pulling and pushing to
+:)
