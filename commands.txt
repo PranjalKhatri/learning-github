@@ -14,3 +14,7 @@ git push: upload git commits to remote etc.
 git pull : download changes from remote repo to your folder,opposite of push
 git checkout -b name : creates a new branch named name and takes you there
 git checkout branch_name : switches to the branch_name
+git branch -v : displays last commit message of different branches
+git branch --merged : tells the branches which are already merged
+git branch --no-merged : tells the branches which are not already merged
+git branch -d {branch_name} : deletes the branch
