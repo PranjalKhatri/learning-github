@@ -1,15 +1,15 @@
 git config :
 git init : initializes the git in the pwd
-git status:
-git log :
-git diff :
-git diff --staged:
-git rm f_name:
-git mv o_name n-name :
-git rm --cached f_name :
+git status : tells the status of local repo
+git log : gives lof of previous commits
+git diff : compares staging area with working dir
+git diff --staged: compares staging area with prev commit
+git rm f_name: deletes {f_name} and then stages
+git mv o_name n-name : renames and stages
+git rm --cached f_name : stops tracking file
 git clone : clone repository to your folder
-git add : tracks changes in the repository
-git commit : saves to git
+git add . : tracks changes in the repository
+git commit -m "your message": saves to git
 git push: upload git commits to remote etc.
 git pull : download changes from remote repo to your folder,opposite of push
 git checkout -b name : creates a new branch named name and takes you there
@@ -19,9 +19,12 @@ git branch --merged : tells the branches which are already merged
 git branch --no-merged : tells the branches which are not already merged
 git branch -d {branch_name} : deletes the branch
 git branch : gives the name of current branch
-git remote add origin {link} :
+git remote add origin {link} : links the repo
 git remote -v : tells where you are pulling and pushing to
 git branch -m {new name} : changes name
+git push origin {branch_name} : pushes to remote
+git push origin {branch_name}:{branch to show} : pushes {branch_name} under {branch to show}
+git push -d origin {branch_name} :
 :)
 All used Commands in GIT :-
 To Initialised a git repository       -> git init 
