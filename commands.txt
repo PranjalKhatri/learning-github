@@ -1,6 +1,11 @@
+cd :- change directory
+pwd :- present working directory
+ls
+
 git config :
 git init : initializes the git in the pwd
 git status : tells the status of local repo
+git reflog :
 git log : gives lof of previous commits
 git diff : compares staging area with working dir
 git diff --staged: compares staging area with prev commit
@@ -14,6 +19,7 @@ git push: upload git commits to remote etc.
 git pull : download changes from remote repo to your folder,opposite of push
 git checkout -b name : creates a new branch named name and takes you there
 git checkout branch_name : switches to the branch_name
+git switch branchn_name : samea as previous
 git branch -v : displays last commit message of different branches
 git branch --merged : tells the branches which are already merged
 git branch --no-merged : tells the branches which are not already merged
